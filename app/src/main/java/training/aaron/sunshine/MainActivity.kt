@@ -19,7 +19,6 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(tootlbar)
         var permisos = arrayOf(Manifest.permission.ACCESS_NETWORK_STATE, Manifest.permission.INTERNET)
         ActivityCompat.requestPermissions(this,permisos,100)
-
         NetworkConnection.testPath(resources.getString(R.string.baseUrl))
     }
 }
