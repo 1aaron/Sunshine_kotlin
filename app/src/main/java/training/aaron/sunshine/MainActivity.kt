@@ -4,6 +4,9 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.toolbar.*
 
+/**
+ * @author: Aarón Negrete
+ */
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -11,6 +14,5 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         setSupportActionBar(tootlbar)
-        setTitle("prueba de titulo")
     }
 }
